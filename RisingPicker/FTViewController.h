@@ -1,8 +1,8 @@
 //
 //  FTViewController.h
-//  RisingPicker
+//  MyPicker
 //
-//  Created by 古山 健司 on 2013/10/26.
+//  Created by 古山 健司 on 2013/10/25.
 //  Copyright (c) 2013年 TF. All rights reserved.
 //
 

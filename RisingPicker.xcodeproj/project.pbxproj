@@ -14,13 +14,14 @@
 		A49D0690181BD5D400E69D89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D068F181BD5D400E69D89 /* main.m */; };
 		A49D0694181BD5D400E69D89 /* FTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D0693181BD5D400E69D89 /* FTAppDelegate.m */; };
 		A49D0697181BD5D400E69D89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49D0695181BD5D400E69D89 /* Main.storyboard */; };
-		A49D069A181BD5D400E69D89 /* FTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D0699181BD5D400E69D89 /* FTViewController.m */; };
 		A49D069C181BD5D400E69D89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49D069B181BD5D400E69D89 /* Images.xcassets */; };
 		A49D06A3181BD5D400E69D89 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A49D06A2181BD5D400E69D89 /* XCTest.framework */; };
 		A49D06A4181BD5D400E69D89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A49D0683181BD5D400E69D89 /* Foundation.framework */; };
 		A49D06A5181BD5D400E69D89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A49D0687181BD5D400E69D89 /* UIKit.framework */; };
 		A49D06AD181BD5D400E69D89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A49D06AB181BD5D400E69D89 /* InfoPlist.strings */; };
 		A49D06AF181BD5D400E69D89 /* RisingPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D06AE181BD5D400E69D89 /* RisingPickerTests.m */; };
+		A49D06BA181BD5FF00E69D89 /* FTPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D06B9181BD5FF00E69D89 /* FTPickerViewController.m */; };
+		A49D06BD181BD61F00E69D89 /* FTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D06BC181BD61F00E69D89 /* FTViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		A49D0692181BD5D400E69D89 /* FTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAppDelegate.h; sourceTree = "<group>"; };
 		A49D0693181BD5D400E69D89 /* FTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAppDelegate.m; sourceTree = "<group>"; };
 		A49D0696181BD5D400E69D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A49D0698181BD5D400E69D89 /* FTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTViewController.h; sourceTree = "<group>"; };
-		A49D0699181BD5D400E69D89 /* FTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTViewController.m; sourceTree = "<group>"; };
 		A49D069B181BD5D400E69D89 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A49D06A1181BD5D400E69D89 /* RisingPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RisingPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49D06A2181BD5D400E69D89 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A49D06AA181BD5D400E69D89 /* RisingPickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RisingPickerTests-Info.plist"; sourceTree = "<group>"; };
 		A49D06AC181BD5D400E69D89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A49D06AE181BD5D400E69D89 /* RisingPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RisingPickerTests.m; sourceTree = "<group>"; };
+		A49D06B8181BD5FF00E69D89 /* FTPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPickerViewController.h; sourceTree = "<group>"; };
+		A49D06B9181BD5FF00E69D89 /* FTPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPickerViewController.m; sourceTree = "<group>"; };
+		A49D06BB181BD61F00E69D89 /* FTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTViewController.h; sourceTree = "<group>"; };
+		A49D06BC181BD61F00E69D89 /* FTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,10 @@
 				A49D0692181BD5D400E69D89 /* FTAppDelegate.h */,
 				A49D0693181BD5D400E69D89 /* FTAppDelegate.m */,
 				A49D0695181BD5D400E69D89 /* Main.storyboard */,
-				A49D0698181BD5D400E69D89 /* FTViewController.h */,
-				A49D0699181BD5D400E69D89 /* FTViewController.m */,
+				A49D06BB181BD61F00E69D89 /* FTViewController.h */,
+				A49D06BC181BD61F00E69D89 /* FTViewController.m */,
+				A49D06B8181BD5FF00E69D89 /* FTPickerViewController.h */,
+				A49D06B9181BD5FF00E69D89 /* FTPickerViewController.m */,
 				A49D069B181BD5D400E69D89 /* Images.xcassets */,
 				A49D068A181BD5D400E69D89 /* Supporting Files */,
 			);
@@ -252,7 +257,8 @@
 			files = (
 				A49D0694181BD5D400E69D89 /* FTAppDelegate.m in Sources */,
 				A49D0690181BD5D400E69D89 /* main.m in Sources */,
-				A49D069A181BD5D400E69D89 /* FTViewController.m in Sources */,
+				A49D06BD181BD61F00E69D89 /* FTViewController.m in Sources */,
+				A49D06BA181BD5FF00E69D89 /* FTPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
